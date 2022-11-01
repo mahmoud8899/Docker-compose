@@ -25,7 +25,7 @@ require('dotenv').config()
 
 
 app.get('*', (req,res)=> res.status(200).send(
-  'helllo man sdasdsds hub......'
+  'mahmoud alamdhoun .........'
 ))
 
 
