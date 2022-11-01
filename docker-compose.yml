@@ -2,6 +2,7 @@ version: '3'
 services:
   node-app:
    container_name: express-node-app
+   image: mahmoud899/test
    build: .
    volumes:
    - ./src:/app/src:ro
